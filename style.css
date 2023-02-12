@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./coffee.jpg);
+}
+
+.contenedor {
+	width: 50%;
+	margin: 80px auto;
+	margin-bottom: 0;
+	border: 2px solid #46434d;
+	background-color: rgb(255, 255, 255);
+	box-shadow: rgb(255, 254, 254) 0px 7px 29px 0px;
+}
+
+.formulario {
+	margin: 15px auto;
+	width: 50%;
+}
+
+.formulario input[type='text'] {
+	padding: 20px;
+	border: none;
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	font-size: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.formulario .btn {
+	width: 100%;
+	margin: 0 auto;
+	border: none;
+	background: rgb(0, 0, 0);
+	color: #fff;
+	cursor: pointer;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.formulario .btn:hover {
+	background: #3e14b2;
+}
+
+.contenedorQR {
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	padding: 40px 0;
+}
+
+footer {
+	width: 50%;
+	color: #fff;
+	margin: 10px auto;
+	text-align: end;
+	font-weight: 700;
+}
