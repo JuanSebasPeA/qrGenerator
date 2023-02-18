@@ -19,7 +19,7 @@ body {
 
 .formulario {
 	margin: 15px auto;
-	width: 50%;
+	width: 60%;
 }
 
 .formulario input[type='text'] {
@@ -65,4 +65,16 @@ footer {
 	margin: 10px auto;
 	text-align: end;
 	font-weight: 700;
+}
+
+
+@media screen and (max-width: 800px) {
+	.contenedor {
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	.formulario {
+		width: 80%;
+	}
 }
